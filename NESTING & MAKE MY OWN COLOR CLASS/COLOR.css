@@ -1,0 +1,51 @@
+#navbar {
+  height: 50px;
+  background-color: crimson;
+  outline: solid 1px black;
+  width: 870px;
+  padding-top: 1px; }
+  #navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 17px;
+    text-decoration: none;
+    font-size: 17px; }
+    #navbar a:hover {
+      background-color: rgba(128, 107, 245, 0.712);
+      color: black; }
+  #navbar ul li {
+    display: inline-block;
+    margin: -10px; }
+
+#box1 {
+  outline: solid 1px black;
+  background-color: rgba(115, 115, 253, 0.493);
+  float: left;
+  padding-left: 20px; }
+  #box1 p::selection {
+    background-color: crimson;
+    color: white; }
+  #box1 h2::selection {
+    background-color: crimson;
+    color: white; }
+
+#box2 {
+  outline: solid 1px black;
+  background-color: rgba(51, 48, 49, 0.212); }
+  #box2 ul li a:hover {
+    color: crimson; }
+
+#box {
+  margin: 60px; }
+
+#foot {
+  background: crimson;
+  text-align: right;
+  padding-right: 10px;
+  width: 860px;
+  outline: solid black 1px; }
+  #foot small a:hover {
+    color: black; }
+
+/*# sourceMappingURL=COLOR.css.map */

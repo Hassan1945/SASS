@@ -1,0 +1,21 @@
+%BOX{
+    box-shadow:3px 2px 6px black ;
+}
+
+#box1{
+    background-color: rgb(150, 38, 38);
+    margin: 20px 0px 10px 30px;
+   padding: 20px;
+   width: 900PX;
+   height: 150PX;
+   color: rgb(255, 255, 255);
+    @extend%BOX
+}
+#box2{
+    background-color: rgb(93, 93, 212);
+    @extend#box1,%BOX
+}
+#box3{
+    background-color: rgb(9, 99, 21);
+    @extend#box2,%BOX
+}

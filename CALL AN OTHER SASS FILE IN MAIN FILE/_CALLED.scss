@@ -1,0 +1,26 @@
+#menu {
+    background-color: rgba(133, 14, 245, 0.719);
+    overflow: hidden;
+
+    a {
+        
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 7px 17px;
+        text-decoration: none;
+        font-size: 17px;
+        
+        &:hover {
+            background-color: rgba(139, 245, 107, 0.342);
+            color: rgb(0, 0, 0);}
+    }
+    
+
+
+      ul li{
+        display: inline-block;
+        margin: -10px;
+    }
+
+  }
