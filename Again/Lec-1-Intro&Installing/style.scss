@@ -1,0 +1,23 @@
+// Ab agr mein ".scss" wali file mein kuch bhi changes krta hoon to to automatically ".css" wali file mein changes kr de ga. 
+// Q ky mein ny in dono files ko Koala mein import kiya hai. Koala jo ky aik compiler hai scss ko css mein convert kr deta hai.
+
+// iss niche likhey hue code ka koi matlab nahi hai ye sirf example ky liye hai
+
+nav { 
+    ul
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    li
+    {
+        position: relative;
+        color:aqua;
+    }
+    a
+    {
+        padding: 15px;
+        border: solid .5px black
+    }
+}

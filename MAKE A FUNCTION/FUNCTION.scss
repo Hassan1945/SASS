@@ -1,0 +1,9 @@
+ $container-width :20;
+
+@function two-times($width){
+    @return $width*$width + px;   
+}
+#div{
+    width : two-times($container-width);
+    background-color:rgb(90, 39, 39);
+}

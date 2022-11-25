@@ -1,0 +1,14 @@
+#foot {
+
+    background: $last-color;
+    text-align: right;
+    padding-right: 10px;
+    width: 860px;
+    outline: solid black 1px;
+
+    small a {
+        &:hover {
+            color: rgb(0, 0, 0);
+        }
+    }
+}

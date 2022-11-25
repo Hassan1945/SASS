@@ -1,0 +1,75 @@
+// iss mein hum functions bna skty hain like agr hum bar bar  display:flex, flex-direction:column, justify-content:center, align-items:center;
+// to jaisa ky hum ko bar bar wo properties use krna par rhi hein. to hum in sabhi ka aik function bnaty hain in sab ko function mein add krty hain to hum ko bar bar zeyada code likhna nahi prta. bas function add kr do to ye sabhi properties automatically add ho jati hein.
+
+
+// SCSS FILE                                        
+
+// @mixin bd-radius($value){                iss mein hum ny aik bd-radius name ka aik function bnaya aur uss mein value koi nahi di to wo hum khud alag alag de skty hein
+//     -webkit-border-radius:$value;
+//     -moz-border-radius:$value;
+//     border-radius:$value;
+//     }
+//     .abc{
+//     @include bd-radius(5px);
+//     }
+//     .xyz{
+//     @include bd-radius(10px);
+//     }
+
+// CSS File                 wo jo upper likha hai wo css ki file mein kuch iss tarah se show hoga okay
+// .abc{
+// -webkit-border-radius:5px
+// -moz-border-radius:5px;
+// border-radius:5px;
+// }
+// .xyz{
+// -webkit-border-radius: 10px
+// -moz-border-radius:10px;
+// border-radius:10px;
+// }
+
+@mixin back($value) {                     //  agr mein $value: red; kre deta hoon to agr mein phir nichy iss mixin ko include kroon aur dubara value doon to wo value iss value ko overwrite kr degi
+    background-color: $value;
+    color: #fff;
+}
+
+@mixin bor() {
+    border-radius: 10px;
+    padding: 20px;   
+    margin: 50px;
+}
+
+@mixin vol($value) {
+    width: $value;
+    height: $value;
+}
+
+@mixin bx-shdw($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+}
+.first
+{
+    @include bx-shdw(0px, 0px, 10px, black);
+    @include back(red);
+    @include vol(100px);
+    @include bor();
+}
+
+.second 
+{
+    @include bx-shdw(10px, -10px, 10px, black);
+    @include back(green);
+    @include vol(200px);
+    @include bor();
+}
+
+.third
+{
+    @include bx-shdw(-10px, 10px, 10px, black);
+    @include back(purple);
+    @include vol(300px);
+    @include bor();
+}
+

@@ -1,0 +1,32 @@
+
+#box1 {
+    outline: solid 1px black;
+    background-color: $second-color;
+    float: left;
+    padding-left: 20px;
+
+    p::selection {
+        background-color: $last-color;
+        color: white;
+    }
+
+    h2::selection {
+        background-color: $last-color;
+        color: white;
+    }
+}
+
+#box2 {
+    outline: solid 1px black;
+    background-color: $side-color;
+
+    ul li a {
+        &:hover {
+            color: $last-color;
+        }
+    }
+}
+
+#box {
+    margin: 60px;
+}

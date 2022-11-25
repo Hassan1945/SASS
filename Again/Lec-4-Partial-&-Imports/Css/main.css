@@ -1,0 +1,51 @@
+#navbar {
+  height: 50px;
+  background-color: #14dc25;
+  outline: solid 1px black;
+  width: 870px;
+  padding-top: 1px; }
+  #navbar ul li {
+    display: inline-block;
+    margin: -10px; }
+  #navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 17px;
+    text-decoration: none;
+    font-size: 17px; }
+    #navbar a:hover {
+      background-color: rgba(128, 107, 245, 0.712);
+      color: #14dc25; }
+
+#box1 {
+  outline: solid 1px black;
+  background-color: rgba(128, 107, 245, 0.712);
+  float: left;
+  padding-left: 20px; }
+  #box1 p::selection {
+    background-color: #14dc25;
+    color: white; }
+  #box1 h2::selection {
+    background-color: #14dc25;
+    color: white; }
+
+#box2 {
+  outline: solid 1px black;
+  background-color: rgba(51, 48, 49, 0.212); }
+  #box2 ul li a:hover {
+    color: #14dc25; }
+
+#box {
+  margin: 60px; }
+
+#foot {
+  background: #14dc25;
+  text-align: right;
+  padding-right: 10px;
+  width: 860px;
+  outline: solid black 1px; }
+  #foot small a:hover {
+    color: black; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,35 @@
+// Ab extend mein hum jo properties repeat ho rhi hai uss ko aik function bnaye baghair un properties ko lagana extend kehlata hai.
+
+// For Example: 
+
+.abc {
+    color: green;
+    margin: 50px;
+    padding: 30px;
+    background-color: crimson;
+}
+
+.xyz {
+    color: black;
+    @extend .abc;
+}
+
+// now go and check the code of .css file
+
+// second method
+%abc {                          //yahan per hum ny %abc ko like aik mixin ki tarah use kiya hai % ko hum placeholder kehty hain. go and check .css file.
+    color: red;
+    font-size: 5px;
+    line-height: 5px;
+    text-transform: uppercase;
+}
+
+.xyz {
+    color: green;
+    @extend %abc;
+}
+
+.efg {
+    color: blue;
+    @extend %abc;
+}

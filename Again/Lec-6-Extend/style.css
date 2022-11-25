@@ -1,0 +1,22 @@
+.abc, .xyz {
+  color: green;
+  margin: 50px;
+  padding: 30px;
+  background-color: crimson; }
+
+.xyz {
+  color: black; }
+
+.xyz, .efg {
+  color: red;
+  font-size: 5px;
+  line-height: 5px;
+  text-transform: uppercase; }
+
+.xyz {
+  color: green; }
+
+.efg {
+  color: blue; }
+
+/*# sourceMappingURL=style.css.map */

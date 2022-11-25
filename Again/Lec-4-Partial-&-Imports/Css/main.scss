@@ -1,0 +1,14 @@
+
+// Partials ka matlab hota hai parts iss mein hum website ky different parts bnate hein then un ko aik main file mein import krty hain to iss se code smjhna kafi easy hojata hia bar bar scroll bhi zeyada ni krna parta
+// code mein changing bhi kafi easy rehti hai.
+
+// jis file ko hum ny import krna ho uss ko hum "_filename.scss/_filename.sass" is tarah se save krty hain. iss mein jis file ko import krna ho aur jis mein krna ho dono ki extension same hogi to run hoga warna nahi.
+// aur import krny ky liye hum ko sirf location add krna hoti hai file ki "_" ka sign ya ".scss/.sass" ye extensions add krny ki zarurat nahi hoti.
+
+@import "variables";
+
+@import "header";
+
+@import "content";
+
+@import "footer";

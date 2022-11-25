@@ -1,0 +1,37 @@
+.first {
+  -webkit-box-shadow: 0px 0px 10px black;
+  -moz-box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px black;
+  background-color: red;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px; }
+
+.second {
+  -webkit-box-shadow: 10px -10px 10px black;
+  -moz-box-shadow: 10px -10px 10px black;
+  box-shadow: 10px -10px 10px black;
+  background-color: green;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px; }
+
+.third {
+  -webkit-box-shadow: -10px 10px 10px black;
+  -moz-box-shadow: -10px 10px 10px black;
+  box-shadow: -10px 10px 10px black;
+  background-color: purple;
+  color: #fff;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px; }
+
+/*# sourceMappingURL=style.css.map */

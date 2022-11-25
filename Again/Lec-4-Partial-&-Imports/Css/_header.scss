@@ -1,0 +1,29 @@
+#navbar {
+    height: 50px;
+    background-color: $last-color;
+    outline: solid 1px black;
+    width: 870px;
+    padding-top: 1px;
+
+    ul li {
+        display: inline-block;
+        margin: -10px;
+    }
+
+    a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 7px 17px;
+        text-decoration: none;
+        font-size: 17px;
+
+        &:hover {
+            background-color: $second-color;
+            color: $last-color;
+        }
+
+        // yahan per &:hover mein "&" ka sign apny parent ko represent krta hai aur ye asal mein a:hover likha hua hai
+    }
+
+}

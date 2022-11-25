@@ -1,0 +1,18 @@
+#box1, #box2, #box3 {
+  box-shadow: 3px 2px 6px black; }
+
+#box1, #box2, #box3 {
+  background-color: #962626;
+  margin: 20px 0px 10px 30px;
+  padding: 20px;
+  width: 900PX;
+  height: 150PX;
+  color: white; }
+
+#box2, #box3 {
+  background-color: #5d5dd4; }
+
+#box3 {
+  background-color: #096315; }
+
+/*# sourceMappingURL=EXTENDS.css.map */

@@ -1,0 +1,12 @@
+nav ul {
+  width: 100%;
+  margin: 0px;
+  padding: 0px; }
+nav li {
+  position: relative;
+  color: aqua; }
+nav a {
+  padding: 15px;
+  border: solid 0.5px black; }
+
+/*# sourceMappingURL=style.css.map */
